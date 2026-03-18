@@ -59,7 +59,7 @@ const MethodologySection = () => (
               initial={{ opacity: 0, x: 20 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.4, delay: i * 0.1, ease: [0.25, 0.1, 0.25, 1] }}
+              transition={{ duration: 0.4, delay: i * 0.1, ease: [0.25, 0.1, 0.25, 1] as const }}
               className="flex gap-4 p-5 rounded-xl hover:bg-surface transition-colors"
             >
               <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center mt-0.5">
