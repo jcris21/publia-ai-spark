@@ -10,7 +10,7 @@ const fadeInUp = {
 const stats = [
   { value: "40%", label: "Reducción en tiempos de trámite" },
   { value: "3x", label: "Incremento en satisfacción ciudadana" },
-  { value: "12", label: "Instituciones públicas habilitadas" },
+  { value: "1", label: "Instituciones públicas habilitadas" },
   { value: "500K+", label: "Ciudadanos beneficiados" },
 ];
 
