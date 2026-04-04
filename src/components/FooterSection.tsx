@@ -16,7 +16,9 @@ const FooterSection = () => (
 
         <div className="flex flex-col items-start md:items-end gap-4">
           <a
-            href="mailto:hola@publialab.com"
+            href="https://forms.fillout.com/t/oF2A6pZQhAus"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-primary text-primary-foreground px-6 py-3 rounded-lg font-semibold text-sm hover:-translate-y-px transition-all duration-200"
           >
             Agendar Consulta
