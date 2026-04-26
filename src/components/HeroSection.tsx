@@ -10,48 +10,65 @@ const fadeInUp = {
 
 const HeroSection = () => (
   <section className="pt-32 pb-24 px-6">
-    <div className="max-w-4xl mx-auto text-center">
-      <motion.div {...fadeInUp}>
-        <span className="font-mono-lab text-primary mb-6 inline-block">
-          GovTech · IA Agéntica · Valor Social
-        </span>
-      </motion.div>
+    <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+      <div className="text-center lg:text-left">
+        <motion.div {...fadeInUp}>
+          <span className="font-mono-lab text-primary mb-6 inline-block">
+            GovTech · IA Agéntica · Valor Social
+          </span>
+        </motion.div>
 
-      <motion.h1
-        {...fadeInUp}
-        transition={{ ...fadeInUp.transition, delay: 0.1 }}
-        className="text-4xl sm:text-5xl lg:text-[64px] font-bold leading-[1.1] tracking-[-0.04em] text-foreground mb-6"
-        style={{ textWrap: "balance" } as React.CSSProperties}
-      >
-        Transformamos la función pública con inteligencia agéntica
-      </motion.h1>
+        <motion.h1
+          {...fadeInUp}
+          transition={{ ...fadeInUp.transition, delay: 0.1 }}
+          className="text-4xl sm:text-5xl lg:text-[64px] font-bold leading-[1.1] tracking-[-0.04em] text-foreground mb-6"
+          style={{ textWrap: "balance" } as React.CSSProperties}
+        >
+          Transformamos la función pública con inteligencia agéntica
+        </motion.h1>
 
-      <motion.p
-        {...fadeInUp}
-        transition={{ ...fadeInUp.transition, delay: 0.2 }}
-        className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed"
-        style={{ textWrap: "pretty" } as React.CSSProperties}
-      >
-        Publia Lab integra Aprendizaje Automático, generativo y metodologías de descubrimiento ágil para maximizar el valor social en la era de la IA 2.0.
-      </motion.p>
+        <motion.p
+          {...fadeInUp}
+          transition={{ ...fadeInUp.transition, delay: 0.2 }}
+          className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto lg:mx-0 mb-10 leading-relaxed"
+          style={{ textWrap: "pretty" } as React.CSSProperties}
+        >
+          Publia Lab integra Aprendizaje Automático, generativo y metodologías de descubrimiento ágil para maximizar el valor social en la era de la IA 2.0.
+        </motion.p>
+
+        <motion.div
+          {...fadeInUp}
+          transition={{ ...fadeInUp.transition, delay: 0.3 }}
+          className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4"
+        >
+          <a
+            href="#contacto"
+            className="bg-primary text-primary-foreground px-6 py-3 rounded-lg font-semibold text-sm hover:-translate-y-px transition-all duration-200 hover:shadow-lg flex items-center gap-2"
+          >
+            Iniciar Discovery <ArrowRight size={16} />
+          </a>
+          <a
+            href="#capacidades"
+            className="bg-surface text-foreground px-6 py-3 rounded-lg font-semibold text-sm shadow-[0_0_0_1px_rgba(0,0,0,0.08)] hover:-translate-y-px transition-all duration-200"
+          >
+            Ver Capacidades
+          </a>
+        </motion.div>
+      </div>
 
       <motion.div
-        {...fadeInUp}
-        transition={{ ...fadeInUp.transition, delay: 0.3 }}
-        className="flex flex-col sm:flex-row items-center justify-center gap-4"
+        initial={{ opacity: 0, scale: 0.95 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.7, ease: [0.25, 0.1, 0.25, 1] as const, delay: 0.2 }}
+        className="relative w-full aspect-square lg:aspect-auto lg:h-[560px]"
       >
-        <a
-          href="#contacto"
-          className="bg-primary text-primary-foreground px-6 py-3 rounded-lg font-semibold text-sm hover:-translate-y-px transition-all duration-200 hover:shadow-lg flex items-center gap-2"
-        >
-          Iniciar Discovery <ArrowRight size={16} />
-        </a>
-        <a
-          href="#capacidades"
-          className="bg-surface text-foreground px-6 py-3 rounded-lg font-semibold text-sm shadow-[0_0_0_1px_rgba(0,0,0,0.08)] hover:-translate-y-px transition-all duration-200"
-        >
-          Ver Capacidades
-        </a>
+        <iframe
+          src="https://my.spline.design/untitled-KdpV1TB9730aaat0Aqe1cypp/"
+          title="Animación 3D Publia Lab"
+          loading="lazy"
+          className="w-full h-full border-0 rounded-2xl"
+          allow="autoplay; fullscreen"
+        />
       </motion.div>
     </div>
   </section>
