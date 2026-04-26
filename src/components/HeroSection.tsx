@@ -63,7 +63,8 @@ const HeroSection = () => (
         className="relative w-full aspect-square lg:aspect-auto lg:h-[560px]"
       >
         <iframe
-          src="https://my.spline.design/untitled-KdpV1TB9730aaat0Aqe1cypp/"
+          key="spline-kdpv1tb-v2"
+          src="https://my.spline.design/untitled-KdpV1TB9730aaat0Aqe1cypp/?v=2"
           title="Animación 3D Publia Lab"
           loading="lazy"
           className="w-full h-full border-0 rounded-2xl"
