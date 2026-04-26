@@ -39,7 +39,7 @@ const HeroSection = () => (
         <motion.div
           {...fadeInUp}
           transition={{ ...fadeInUp.transition, delay: 0.3 }}
-          className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4"
+          className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <a
             href="#contacto"
