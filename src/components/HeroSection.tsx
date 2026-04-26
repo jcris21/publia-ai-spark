@@ -10,8 +10,8 @@ const fadeInUp = {
 
 const HeroSection = () => (
   <section className="pt-32 pb-24 px-6">
-    <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
-      <div className="text-center lg:text-left">
+    <div className="max-w-4xl mx-auto">
+      <div className="text-center">
         <motion.div {...fadeInUp}>
           <span className="font-mono-lab text-primary mb-6 inline-block">
             GovTech · IA Agéntica · Valor Social
