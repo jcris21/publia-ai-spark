@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import impactoEcosistema from "@/assets/impacto-ecosistema.png";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 12 },
