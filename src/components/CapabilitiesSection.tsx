@@ -21,7 +21,7 @@ const capabilities = [
     label: "GenAI",
     title: "IA Generativa",
     description:
-      "Automatización inteligente de documentación, atención ciudadana y generación de contenido institucional con calidad verificable.",
+      "Automatización inteligente de respuestas de Chat respaldadas por documentación para atención ciudadana en canales atención verficable y confiable",
   },
   {
     icon: Bot,
