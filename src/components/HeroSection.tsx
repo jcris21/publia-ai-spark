@@ -30,7 +30,7 @@ const HeroSection = () => (
         <motion.p
           {...fadeInUp}
           transition={{ ...fadeInUp.transition, delay: 0.2 }}
-          className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto lg:mx-0 mb-10 leading-relaxed"
+          className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed"
           style={{ textWrap: "pretty" } as React.CSSProperties}
         >
           Publia Lab integra Aprendizaje Automático, generativo y metodologías de descubrimiento ágil para maximizar el valor social en la era de la IA 2.0.
