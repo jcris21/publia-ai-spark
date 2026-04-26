@@ -56,21 +56,6 @@ const HeroSection = () => (
         </motion.div>
       </div>
 
-      <motion.div
-        initial={{ opacity: 0, scale: 0.95 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.7, ease: [0.25, 0.1, 0.25, 1] as const, delay: 0.2 }}
-        className="relative w-full aspect-square lg:aspect-auto lg:h-[560px]"
-      >
-        <iframe
-          key="spline-kdpv1tb-v2"
-          src="https://my.spline.design/untitled-KdpV1TB9730aaat0Aqe1cypp/?v=2"
-          title="Animación 3D Publia Lab"
-          loading="lazy"
-          className="w-full h-full border-0 rounded-2xl"
-          allow="autoplay; fullscreen"
-        />
-      </motion.div>
     </div>
   </section>
 );
