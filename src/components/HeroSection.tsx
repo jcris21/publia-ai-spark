@@ -10,8 +10,8 @@ const fadeInUp = {
 
 const HeroSection = () => (
   <section className="pt-32 pb-24 px-6">
-    <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
-      <div className="text-center lg:text-left">
+    <div className="max-w-4xl mx-auto">
+      <div className="text-center">
         <motion.div {...fadeInUp}>
           <span className="font-mono-lab text-primary mb-6 inline-block">
             GovTech · IA Agéntica · Valor Social
@@ -30,7 +30,7 @@ const HeroSection = () => (
         <motion.p
           {...fadeInUp}
           transition={{ ...fadeInUp.transition, delay: 0.2 }}
-          className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto lg:mx-0 mb-10 leading-relaxed"
+          className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed"
           style={{ textWrap: "pretty" } as React.CSSProperties}
         >
           Publia Lab integra Aprendizaje Automático, generativo y metodologías de descubrimiento ágil para maximizar el valor social en la era de la IA 2.0.
@@ -39,7 +39,7 @@ const HeroSection = () => (
         <motion.div
           {...fadeInUp}
           transition={{ ...fadeInUp.transition, delay: 0.3 }}
-          className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4"
+          className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <a
             href="#contacto"
@@ -56,21 +56,6 @@ const HeroSection = () => (
         </motion.div>
       </div>
 
-      <motion.div
-        initial={{ opacity: 0, scale: 0.95 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.7, ease: [0.25, 0.1, 0.25, 1] as const, delay: 0.2 }}
-        className="relative w-full aspect-square lg:aspect-auto lg:h-[560px]"
-      >
-        <iframe
-          key="spline-kdpv1tb-v2"
-          src="https://my.spline.design/untitled-KdpV1TB9730aaat0Aqe1cypp/?v=2"
-          title="Animación 3D Publia Lab"
-          loading="lazy"
-          className="w-full h-full border-0 rounded-2xl"
-          allow="autoplay; fullscreen"
-        />
-      </motion.div>
     </div>
   </section>
 );
