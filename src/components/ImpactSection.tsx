@@ -25,6 +25,21 @@ const ImpactSection = () => (
         </h2>
       </motion.div>
 
+      <motion.div
+        initial={{ opacity: 0, y: 16 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6, ease: [0.25, 0.1, 0.25, 1] }}
+        className="mb-16 rounded-2xl overflow-hidden shadow-[var(--shadow-card)] bg-background"
+      >
+        <img
+          src={impactoEcosistema}
+          alt="Ecosistema de soluciones de IA para gobierno: ML, GenAI, atención ciudadana, agentes IA y validación de impacto"
+          className="w-full h-auto block"
+          loading="lazy"
+        />
+      </motion.div>
+
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {stats.map((stat, i) => (
           <motion.div
