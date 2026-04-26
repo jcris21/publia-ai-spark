@@ -32,7 +32,7 @@ const HeroSection = () => (
         className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed"
         style={{ textWrap: "pretty" } as React.CSSProperties}
       >
-        Publia Lab integra Machine Learning y metodologías de descubrimiento ágil para maximizar el valor social en la era de la IA 2.0.
+        Publia Lab integra Aprendizaje Automático, generativo y metodologías de descubrimiento ágil para maximizar el valor social en la era de la IA 2.0.
       </motion.p>
 
       <motion.div
